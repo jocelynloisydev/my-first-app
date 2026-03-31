@@ -1,8 +1,17 @@
 .footer {
   text-align: center;
-  padding: 1rem;
-  background: #f3f3f3;
-  color: #333;
+  padding: var(--space-5) 0;
+  background: var(--color-dark);
+  color: var(--color-light);
   font-size: 0.9rem;
-  margin-top: 2rem;
+  margin-top: var(--space-7);
+}
+
+.footer a {
+  color: var(--color-primary-light);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: var(--color-primary);
 }

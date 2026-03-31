@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* Couleurs principales */
+  --color-primary: #4f46e5;
+  --color-primary-light: #6366f1;
+  --color-primary-dark: #4338ca;
+
+  /* Couleurs neutres */
+  --color-black: #0f0f0f;
+  --color-dark: #1f1f1f;
+  --color-gray: #6b7280;
+  --color-light: #f3f4f6;
+  --color-white: #ffffff;
+
+  /* Feedback */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+
+  /* Typographie */
+  --font-main: 'Inter', sans-serif;
+
+  /* Espacements */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  /* Breakpoints */
+  --radius: 8px;
+  --shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Style global */
+body {
+  margin: 0;
+  font-family: var(--font-main), sans-serif;
+  background: var(--color-light);
+  color: var(--color-light);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-5);
+}
