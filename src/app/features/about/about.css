@@ -1,0 +1,15 @@
+.about {
+  padding: var(--space-7) 0;
+  color: var(--color-dark);
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: var(--space-4);
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: var(--color-gray);
+  line-height: 1.6;
+}

@@ -1,0 +1,33 @@
+.contact {
+  padding: var(--space-7) 0;
+  color: var(--color-dark);
+}
+
+.contact h1 {
+  font-size: 2rem;
+  margin-bottom: var(--space-4);
+}
+
+.contact p {
+  font-size: 1.1rem;
+  color: var(--color-gray);
+  margin-bottom: var(--space-5);
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: var(--space-3);
+}
+
+.contact-list a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  color: var(--color-primary-dark);
+}
