@@ -28,17 +28,39 @@
   --space-6: 32px;
   --space-7: 48px;
 
-  /* Breakpoints */
+  /* Radius & Shadow */
   --radius: 8px;
   --shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-/* Style global */
-body {
+/* ===== Sticky Footer Layout ===== */
+html, body {
+  height: 100%;
   margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* app-root doit occuper toute la hauteur */
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Le contenu principal prend l'espace restant */
+main {
+  flex: 1;
+}
+
+/* ===== Style global ===== */
+body {
   font-family: var(--font-main), sans-serif;
   background: var(--color-light);
-  color: var(--color-light);
+  color: var(--color-dark);
 }
 
 .container {
